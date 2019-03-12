@@ -34,6 +34,8 @@ target 'Maps' do
   pod 'GoogleMaps'
   pod 'Google-Maps-iOS-Utils'  
 
+    pod 'react-native-geocoder', :path => '../node_modules/react-native-geocoder'
+
   end
 
 
