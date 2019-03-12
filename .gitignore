@@ -29,6 +29,8 @@ bin/
 .idea
 .gradle
 .project
+.classpath
+.settings/
 local.properties
 *.iml
 
