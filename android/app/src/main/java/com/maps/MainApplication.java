@@ -9,6 +9,8 @@ import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 import com.airbnb.android.react.maps.MapsPackage;
 import com.devfd.RNGeocoder.RNGeocoderPackage;
+import io.invertase.firebase.RNFirebasePackage;
+import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
 import java.util.Arrays;
 import java.util.List;
 
@@ -25,6 +27,8 @@ public class MainApplication extends Application implements ReactApplication {
           return Arrays.<ReactPackage>asList(
               new MainReactPackage(),
               new RNGeocoderPackage(),
+              new RNFirebasePackage(),
+              new RNFirebaseAnalyticsPackage(),
               new MapsPackage()
           );
       }

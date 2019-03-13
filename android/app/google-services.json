@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "239210722154",
+    "firebase_url": "https://ownersapp-c28eb.firebaseio.com",
+    "project_id": "ownersapp-c28eb",
+    "storage_bucket": "ownersapp-c28eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239210722154:android:8eeebbaa3dbc13b5",
+        "android_client_info": {
+          "package_name": "com.maps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239210722154-ke8l6kui09ur2gddscohq20u8mbovm15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm9QM4PhusZd7onjdLKaq2wBcDtuOKGWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
