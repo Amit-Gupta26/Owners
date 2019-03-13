@@ -12,10 +12,13 @@ import { StyleSheet, View} from 'react-native';
 import MapView from 'react-native-maps';
 import Search from './extras/Search';
 import Geocoder from 'react-native-geocoder';
+import firebase from 'react-native-firebase';
 
 export default class App extends Component {
 
   componentDidMount(){
+    firebase.analytics().setCurrentScreen("Home");
+    firebase.analytics().setUserProperty("userType", "developer");
     var NY = {
       lat: 40.7809261,
       lng: -73.9637594
