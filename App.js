@@ -30,7 +30,8 @@ export default class App extends Component {
         // res is an Array of geocoding object (see below)
     })
     .catch(err => console.warn(err))
-
+    firebase.analytics().logEvent("buttonPressed");
+    firebase.analytics().logEvent("Beds", "2+");
   }
   render() {
     return (
