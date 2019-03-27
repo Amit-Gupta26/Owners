@@ -9,6 +9,7 @@
 
 import React, {Component} from 'react';
 import { StyleSheet, View} from 'react-native';
+import firebase from 'react-native-firebase';
 import MapView from 'react-native-maps';
 import Search from './extras/Search';
 import Geocoder from 'react-native-geocoder';
@@ -16,6 +17,7 @@ import Geocoder from 'react-native-geocoder';
 export default class App extends Component {
 
   componentDidMount(){
+    firebase.analytics().logEvent("testevents");
     var NY = {
       lat: 40.7809261,
       lng: -73.9637594

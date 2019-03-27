@@ -32,7 +32,9 @@ target 'Maps' do
   pod 'react-native-maps', path: rn_maps_path
   pod 'react-native-google-maps', path: rn_maps_path
   pod 'GoogleMaps'
-  pod 'Google-Maps-iOS-Utils'  
+  pod 'Google-Maps-iOS-Utils'
+  pod 'Firebase/Core', '~> 5.15.0'
+  pod 'GoogleUtilities', '= 5.3.6'
 
     pod 'react-native-geocoder', :path => '../node_modules/react-native-geocoder'
 
